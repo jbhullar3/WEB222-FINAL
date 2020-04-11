@@ -1,0 +1,136 @@
+
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed to other students.
+Name: Juvrajan Bhullar
+Dated: March 21, 2020
+********************************************************************/
+
+/* Heading */
+h1 {
+    text-indent: 200px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 3px #666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    FONT-SIZE: 40pt;
+    }
+
+h2 {
+  text-indent: 200px;
+  color: rgb(255, 255, 255);}
+
+h3 {color: rgb(223, 57, 99);
+  
+}
+
+#header1 {
+  background-image: url("header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 68px;
+}
+
+  
+/* Body */
+
+
+
+.body1 {
+  float: left;
+  width: 70%;
+}
+
+.body2 {
+  float: right;
+  width: 30%;
+
+}
+
+.text1{
+  color: rgb(223, 57, 99);
+  font-size: 14pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text2{
+  font-size: 14pt;
+}
+
+/* Nav */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active{
+    background-color: rgb(223, 57, 99);
+  }
+
+
+/* Table */
+
+      #table1 {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+
+      .img1{
+          height: 195px;
+          width: 195px;
+          background-color: powderblue;
+        
+      }
+
+      .price1{
+        color: red;
+      }
+
+      .name1{
+        color: rgb(0, 132, 255);
+        text-decoration: underline;
+      }
+
+/* MOBILE */
+
+@media screen and (max-width:640px){
+  .body1 {
+    float: left;
+    width: 100%;
+  }
+  
+  .body2 {
+    float: right;
+    width: 100%;
+  
+  }
+  #header1 {
+  display:none;
+  }
+
+
+}
+
+
+
